@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "last_reviewed": "2026-11-06",
+  "project": "LEO 2.0 AI",
+  "status": "source-informed specification",
+  "sources": [
+    {
+      "id": "S1",
+      "filename": "LEO_2_0_COMPLETE_MASTER_BUILD_BLUEPRINT_2026(3).pdf",
+      "type": "application/pdf",
+      "pages": 311,
+      "embedded_files_count": 8,
+      "sha256": "b1694a5fb0b2c65181a8c2cdc305d76c728ad808a9ef651b2913c9b54446f2ef",
+      "github_raw_upload": false
+    },
+    {
+      "id": "S2",
+      "filename": "details full.docx",
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "2c4adcee9c0027e45ba8853c2c7bd97e784d275835396e52b6fa2d5df9b376ad",
+      "github_raw_upload": false
+    },
+    {
+      "id": "S3",
+      "filename": "LEO_2_0_COPY_READY_BUILD_PROMPT (1).txt",
+      "type": "text/plain",
+      "sha256": "2f68887b036e60e30bd3e70ba2a95ab5d95b414ca4ebf1a4b0d7a3f3e4281179",
+      "github_raw_upload": false
+    }
+  ],
+  "research_claims": [
+    {
+      "name": "public_api_directory_rows",
+      "source_reported_count": 2310,
+      "verification": "source-reported, not current live API keys"
+    },
+    {
+      "name": "normalized_api_documentation_targets",
+      "source_reported_count": 2302,
+      "verification": "source-reported, not working credentials"
+    },
+    {
+      "name": "curated_provider_records",
+      "source_reported_count": 57,
+      "verification": "source-reported"
+    },
+    {
+      "name": "public_endpoint_samples_passed",
+      "source_reported_count": 19,
+      "source_reported_total": 20,
+      "verification": "source-reported historical HTTP/schema checks"
+    },
+    {
+      "name": "community_security_skill_docs",
+      "source_reported_count": 818,
+      "verification": "metadata, not runnable trusted agents"
+    },
+    {
+      "name": "model_metadata_entries",
+      "source_reported_count": 76,
+      "verification": "catalog, not model tests"
+    }
+  ]
+}
