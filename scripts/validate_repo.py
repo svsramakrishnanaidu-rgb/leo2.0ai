@@ -16,6 +16,10 @@ REQUIRED = [
     "docs/PROVIDERS.md", "docs/DATA.md", "docs/MULTIMODAL.md",
     "docs/ROADMAP.md", "docs/WORKFLOWS.md", "docs/TEST_PLAN.md",
     "prompts/LEO_2_BUILD_INSTRUCTION.md",
+    "docs/STATUS.md",
+    "docs/REFERENCE_INDEX.md",
+    "docs/DEV_SETUP.md",
+    "docs/RELEASE_CHECKLIST.md",
     "resources/source_manifest.json",
     "resources/provider_catalog.example.json",
 ]
