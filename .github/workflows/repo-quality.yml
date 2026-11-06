@@ -1,0 +1,33 @@
+name: Repository quality
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reference-tests:
+    name: Docs and policy reference tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate source documents and local links
+        run: python scripts/validate_repo.py
+
+      - name: Test deterministic policy reference
+        run: python -m unittest discover -s tests -v
+
+      - name: Explain test scope
+        run: |
+          echo "Checks above validate repository docs and a reference Python policy helper."
+          echo "They do NOT certify Android, backend auth, API providers, media or production readiness."
