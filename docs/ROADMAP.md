@@ -20,8 +20,8 @@ The master PDF recommends a phased delivery sequence, not a promise to build the
 - [x] Inventory supplied master PDF, DOCX and prompt (metadata and provenance)
 - [x] Publish repo README and organized foundational specs
 - [ ] Establish shared API schema validation with executable tests
-- [ ] Add first policy engine reference implementation and unit tests
-- [ ] Wire automated checks and confirm actual green runs
+- [x] Add isolated reference policy decision function and unit tests (not integrated with API auth)
+- [x] Run and verify repository document / policy checks in GitHub Actions
 - [ ] Adopt issue templates, review rules and release status tracking
 - [ ] Run initial threat model and privacy risk review
 - [ ] Confirm deployment target and SDK/API versions
