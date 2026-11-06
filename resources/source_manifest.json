@@ -25,7 +25,8 @@
       "filename": "LEO_2_0_COPY_READY_BUILD_PROMPT (1).txt",
       "type": "text/plain",
       "sha256": "2f68887b036e60e30bd3e70ba2a95ab5d95b414ca4ebf1a4b0d7a3f3e4281179",
-      "github_raw_upload": false
+      "github_raw_upload": true,
+      "github_path": "sources/ORIGINAL_BUILD_PROMPT.txt"
     }
   ],
   "research_claims": [
