@@ -1,0 +1,78 @@
+PROJECT: LEO 2.0 AI - MULTIMODAL, PERMISSION-BASED ANDROID ASSISTANT
+
+ROLE: Act as a coordinated team: Principal AI Architect, Android Engineer,
+Full-Stack Lead, Security Engineer, ML/LLM Engineer, QA Lead and UI/UX Director.
+
+OBJECTIVE:
+Implement a real, secure LEO 2.0 AI application, not a screenshot-only chatbot.
+Use the uploaded PDF/ZIP source material, visual references and this master
+blueprint to create a deployable, testable, premium mobile AI experience.
+
+STRICT SOURCE INGESTION:
+1. Inventory every uploaded resource, calculate checksums, and create
+   source -> feature -> implementation -> test traceability.
+2. The 2,302 API entries are documentation targets, not live credentials.
+   Import as DISABLED or UNVERIFIED candidates until each is qualified.
+3. Preserve license and attribution metadata. Never use leaked third-party
+   secrets. Require owner-issued account keys or authorized OAuth grants.
+4. Distinguish source-reported tests, real current execution, and proposals.
+
+PRODUCT LAYERS:
+A. Lovable/mobile web dashboard: identity, chat, research, file knowledge,
+   media studio, activity, model registry, usage, settings and privacy.
+B. Native Kotlin/Compose Android client: optional overlay, user-approved
+   file/document picker, voice, explicit screen-share and OS intents.
+C. Secure backend: API gateway, PostgreSQL, storage, RAG, cost ledger,
+   task queue, media workers, secret manager and telemetry.
+D. Autonomous agent layer: planning, provider routing, policy gating,
+   job checkpoints, real receipts, approval and stop/cancel.
+
+FUNCTIONAL PRIORITIES:
+- Real reasoning/chat through one verified provider before adding many.
+- Source-backed public research and selected-file Q&A with citations.
+- Image creation/editing and video jobs only through validated providers.
+- Voice ASR/TTS and Telugu-English code-mixed conversation.
+- Smart per-request provider selection based on capability, quality, latency,
+  quota, privacy, locale and authorized ownership.
+- Local/app-private memory with editable preferences and deletion.
+- A draggable floating orange LEO orb with explicit overlay opt-in.
+- Device actions via official Android APIs and scoped third-party connectors.
+
+MANDATORY MOBILE POLICY:
+- An overlay grants display capability, not unlimited screen reading.
+- MediaProjection requires active OS consent per session; release on stop.
+- Avoid autonomous cross-app control via AccessibilityService. Google Play
+  prohibits ordinary agents using Accessibility APIs to autonomously plan
+  and execute actions; prefer system intents, OAuth and visible user action.
+- Never bypass sandboxing, screen security, auth dialogs or protected data.
+- Require previews and fresh approval for deletes, financial operations,
+  messages, postings, account/security changes and irreversible actions.
+- Explicit stop, revoke, privacy status and audit history always visible.
+
+DESIGN LANGUAGE:
+Deep graphite (#101823), warm orange (#F27A27), high-contrast ivory.
+Use rounded modular soft-3D cards, cinematic orange holographic AI core,
+subtle monochrome particle-avatar effect, neat analytics and crisp type.
+Keep mobile layout one-hand usable, responsive, accessible, keyboard-safe.
+Treat any generated UI numbers as mock data until backend metrics exist.
+
+IMPLEMENTATION PROCESS:
+0. Report exact evidence and unknowns.
+1. Produce architecture diagram, module contracts, database migrations,
+   permission matrix, token system and screen map before broad coding.
+2. Build a verified complete vertical slice through auth -> model gateway ->
+   streamed response -> saved conversation -> observable error handling.
+3. Add file retrieval, citations, media jobs, voice and native Android.
+4. Add scoped agent planning with deterministic policy per tool action.
+5. Run functional, security, API contract, release, accessibility and
+   real-device tests. Record actual logs and defects; fix all P0 issues.
+6. Provide deployable code, documented configuration placeholders,
+   migration scripts, test outputs, screenshots, rollback and launch gate.
+
+IMPORTANT OUTPUT RULE:
+Never label a proposal as working. Never invent uptime, token cost,
+working API keys, or an unrestricted Android permission. If an external
+provider, model license or mobile capability is not supported, show the
+exact limitation and implement the nearest compliant supported alternative.
+
+START NOW with the SOURCE INVENTORY and ARCHITECTURE + P0 IMPLEMENTATION.
