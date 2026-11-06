@@ -59,7 +59,10 @@ LEO 2.0 is an **in-development** hybrid AI assistant project designed to combine
 | Event lifecycle and CI architecture | [Workflows](docs/WORKFLOWS.md) |
 | Project stages, dependencies and milestones | [Roadmap](docs/ROADMAP.md) |
 | Test cases and production gates | [Testing plan](docs/TEST_PLAN.md) |
-| Uploaded document inventory and provenance | [Source register](docs/SOURCES.md) |
+| Uploaded document inventory and provenance | [Source register](docs/SOURCES.md) and [PDF reference map](docs/REFERENCE_INDEX.md) |
+| Developer environment and commands | [Developer setup](docs/DEV_SETUP.md) |
+| Launch/blocker criteria | [Release checklist](docs/RELEASE_CHECKLIST.md) |
+| Machine-readable source and provider research | [Source manifest](resources/source_manifest.json) · [Disabled provider registry](resources/provider_catalog.example.json) |
 | Build-ready prompt adapted from supplied source | [Developer instruction](prompts/LEO_2_BUILD_INSTRUCTION.md) |
 
 ### Planned architecture
