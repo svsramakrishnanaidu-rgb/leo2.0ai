@@ -100,7 +100,7 @@ This repository currently organizes source-informed specifications and quality c
 
 The repository documentation is **derived and organized** from four uploaded LEO 2.0 sources, including the 311-page master engineering PDF, a Word build guide and a copy-ready development prompt. See [the provenance register](docs/SOURCES.md) for file names, hashes, evidence levels and source-to-specification mapping.
 
-The original binary PDF/DOCX and embedded ZIP attachments are **not represented as uploaded to this repository**. Unverified credentials, demo tokens and third-party content are intentionally excluded.
+The **[original user-supplied build prompt](sources/ORIGINAL_BUILD_PROMPT.txt)** is preserved as text. The binary PDF/DOCX and embedded ZIP attachments have **not** been uploaded. Unverified credentials, demo tokens and unreviewed third-party content are excluded.
 
 ## Author & related projects
 
