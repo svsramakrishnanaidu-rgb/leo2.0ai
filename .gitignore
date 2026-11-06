@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+google-services.json
+credentials.json
+*.keystore
+*.jks
+local.properties
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.local
+
+# Android
+.gradle/
+**/build/
+*.apk
+*.aab
+.idea/
+*.iml
+
+# Private and temp
+tmp/
+private/
+uploads/
+.cache/
+.DS_Store
+Thumbs.db
+.vscode/
