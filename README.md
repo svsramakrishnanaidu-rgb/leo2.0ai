@@ -14,7 +14,7 @@
 ![Security](https://img.shields.io/badge/Security-Consent%20first-2b8c72?style=flat-square)
 [![Repository checks](https://github.com/svsramakrishnanaidu-rgb/leo2.0ai/actions/workflows/repo-quality.yml/badge.svg)](https://github.com/svsramakrishnanaidu-rgb/leo2.0ai/actions/workflows/repo-quality.yml)
 
-[**Explore the architecture**](docs/ARCHITECTURE.md) · [**Read the roadmap**](docs/ROADMAP.md) · [**See the workflows**](docs/WORKFLOWS.md) · [**Security model**](SECURITY.md)
+[**Current build status**](docs/STATUS.md) · [**Architecture**](docs/ARCHITECTURE.md) · [**Roadmap**](docs/ROADMAP.md) · [**GitHub workflows**](docs/WORKFLOWS.md) · [**Security**](SECURITY.md)
 
 </div>
 
