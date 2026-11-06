@@ -16,6 +16,7 @@ REQUIRED = [
     "docs/PROVIDERS.md", "docs/DATA.md", "docs/MULTIMODAL.md",
     "docs/ROADMAP.md", "docs/WORKFLOWS.md", "docs/TEST_PLAN.md",
     "prompts/LEO_2_BUILD_INSTRUCTION.md",
+    "sources/ORIGINAL_BUILD_PROMPT.txt",
     "docs/STATUS.md",
     "docs/REFERENCE_INDEX.md",
     "docs/DEV_SETUP.md",
