@@ -1,6 +1,7 @@
 """Lightweight repository checks; no external packages or network calls."""
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -15,6 +16,8 @@ REQUIRED = [
     "docs/PROVIDERS.md", "docs/DATA.md", "docs/MULTIMODAL.md",
     "docs/ROADMAP.md", "docs/WORKFLOWS.md", "docs/TEST_PLAN.md",
     "prompts/LEO_2_BUILD_INSTRUCTION.md",
+    "resources/source_manifest.json",
+    "resources/provider_catalog.example.json",
 ]
 
 MD_LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
@@ -71,6 +74,18 @@ def main() -> int:
             for pattern in SECRET_PATTERNS:
                 if pattern.search(text):
                     errors.append(f"possible embedded credential in {path.relative_to(ROOT)}")
+
+    for name in ("resources/source_manifest.json", "resources/provider_catalog.example.json"):
+        try:
+            record = json.loads((ROOT / name).read_text(encoding="utf-8"))
+            if name.endswith("provider_catalog.example.json"):
+                for provider in record.get("providers", []):
+                    if provider.get("enabled") is not False or provider.get("status") != "UNVERIFIED":
+                        errors.append(f"unverified provider must be disabled: {provider.get('id', 'unknown')}")
+                    if provider.get("secret_ref") is not None:
+                        errors.append(f"example provider contains secret reference: {provider.get('id', 'unknown')}")
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(f"invalid JSON or missing file: {name}: {exc}")
 
     for error in errors:
         print("FAIL:", error)
