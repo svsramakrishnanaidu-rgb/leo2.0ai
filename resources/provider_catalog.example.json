@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "notes": "Research candidates only. No credentials are included. Each must pass owner authorization, license, quotas and real API contract tests before enabling.",
+  "providers": [
+    {
+      "id": "groq",
+      "capabilities": [
+        "chat"
+      ],
+      "official_docs": "https://console.groq.com/docs",
+      "auth": "server_secret",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "gemini",
+      "capabilities": [
+        "chat",
+        "vision"
+      ],
+      "official_docs": "https://ai.google.dev/gemini-api/docs",
+      "auth": "server_secret",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "openrouter",
+      "capabilities": [
+        "chat"
+      ],
+      "official_docs": "https://openrouter.ai/docs",
+      "auth": "server_secret",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "tavily",
+      "capabilities": [
+        "search"
+      ],
+      "official_docs": "https://docs.tavily.com/",
+      "auth": "server_secret",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "deepgram",
+      "capabilities": [
+        "speech_in"
+      ],
+      "official_docs": "https://developers.deepgram.com/",
+      "auth": "server_secret",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "open-meteo",
+      "capabilities": [
+        "weather"
+      ],
+      "official_docs": "https://open-meteo.com/en/docs",
+      "auth": "none",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "wikipedia",
+      "capabilities": [
+        "knowledge"
+      ],
+      "official_docs": "https://www.mediawiki.org/wiki/API:Main_page",
+      "auth": "varies",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "crossref",
+      "capabilities": [
+        "research"
+      ],
+      "official_docs": "https://api.crossref.org/",
+      "auth": "none",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "openalex",
+      "capabilities": [
+        "research"
+      ],
+      "official_docs": "https://docs.openalex.org/",
+      "auth": "varies",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    },
+    {
+      "id": "usgs",
+      "capabilities": [
+        "earthquakes"
+      ],
+      "official_docs": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "auth": "none",
+      "enabled": false,
+      "status": "UNVERIFIED",
+      "secret_ref": null,
+      "last_tested_at": null,
+      "test_evidence": null
+    }
+  ]
+}
