@@ -81,6 +81,26 @@ flowchart TB
   G --> DB[(Per-user Data + Memory)]
 ~~~
 
+## Evaluate the working reference code
+
+The current repository can be reviewed without API keys, a database or an Android device. With Python 3.11 or newer installed, clone the repository and run:
+
+~~~bash
+git clone https://github.com/svsramakrishnanaidu-rgb/leo2.0ai.git
+cd leo2.0ai
+python scripts/validate_repo.py
+python -m unittest discover -s tests -v
+~~~
+
+| Evidence | Where to look |
+| --- | --- |
+| Reference permission logic | [Policy module](leo_core/policy.py) |
+| Executable policy tests | [Unit tests](tests/test_policy.py) |
+| Current implementation boundaries | [Status register](docs/STATUS.md) |
+| Automated checks | [Repository quality workflow](.github/workflows/repo-quality.yml) |
+
+These checks demonstrate document/schema validation and deterministic reference policy logic only. They do not establish a working AI service, phone integration or production-grade security. See [developer setup](docs/DEV_SETUP.md) for prerequisites and scope.
+
 ## First working milestone
 
 The first implementation milestone is deliberately narrow: **authenticate → request a streamed response through a server-held provider key → save permitted conversation state → return a verifiable result with clear error handling**.
