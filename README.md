@@ -128,7 +128,7 @@ The **[original user-supplied build prompt](sources/ORIGINAL_BUILD_PROMPT.txt)**
 
 - [LEO.AI — civic issue reporting prototype](https://github.com/svsramakrishnanaidu-rgb/leo-ai) — a separate project; **not** the LEO 2.0 product.
 - [FinTrack — personal Flutter expense tracker](https://github.com/svsramakrishnanaidu-rgb/fin-tracker)
-- [BSR Learning — project portfolio](https://github.com/svsramakrishnanaidu-rgb/bsr-learning)
+- [Developer project portfolio](https://github.com/svsramakrishnanaidu-rgb)
 
 <p align="center"><sub>LEO 2.0 AI · User-authorized · Privacy-first · Testable · Engineering specification, November 2026</sub></p>
 
