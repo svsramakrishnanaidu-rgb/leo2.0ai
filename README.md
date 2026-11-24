@@ -131,3 +131,7 @@ The **[original user-supplied build prompt](sources/ORIGINAL_BUILD_PROMPT.txt)**
 - [BSR Learning — project portfolio](https://github.com/svsramakrishnanaidu-rgb/bsr-learning)
 
 <p align="center"><sub>LEO 2.0 AI · User-authorized · Privacy-first · Testable · Engineering specification, November 2026</sub></p>
+
+## Engineering guide
+
+[Explore working mechanisms, architecture diagrams and acceptance criteria](ENGINEERING_GUIDE.md). The guide distinguishes documented functionality from proposed improvements and tests that still require execution.
